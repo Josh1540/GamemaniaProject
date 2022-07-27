@@ -30,10 +30,12 @@ por "container" e não precisa ser editada no css */
 }
 
 .menu{
-    width: 1100px;
+width: 1100px;
 display: flex;
 justify-content: space-between;
 align-items: center;
+/* display: inline-block; */
+vertical-align: middle;
 }
 
 .menu a, p {
@@ -48,12 +50,23 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .menu h3 {
     color: whitesmoke;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 10px;
     font-family: "Geo";
 }
 
 #titulo {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:"Geo"
+
+}
+
+#bars {
+    display: none;
+}
 
 .blue-backgorund {
     background-color: #3A4EA6;
@@ -139,7 +152,32 @@ color: white;
 
 }
 
+.colunas-frases p {
+    color: black;
+    background-color: deepskyblue;
+}
 
+.colunas-frases {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+width: 100%;
+height: 300px;
+/* border: 5px dashed red; */
+}
+
+.colunas-imagens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colunas-imagens img {
+    width: 100%;
+    height: 100%;
+}
 
 
 
@@ -152,7 +190,17 @@ Fazemos ela da seguinte forma: */
 @media screen and (max-width: 1200px) {
     header {
         background-color: darkslategray;
+        
     }
+
+    .menu {
+        display: none;
+    }
+
+#bars {
+    display: inline-block;
+}
+
 
     /* .centralized-grid {
         width: 80%vw;
