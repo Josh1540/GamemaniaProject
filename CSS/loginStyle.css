@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    background-color: #161D4B ;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    /* vertical-align: bottom; */
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#mensagemComando {
+    /* justify-content: space-between;
+    align-items: center; */
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    text-decoration: underline;
+}
+
+.caixinha {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.caixinha p {
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.caixinha button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: whitesmoke;
+    background-color: gray;
+}
