@@ -196,6 +196,10 @@ height: 300px;
     visibility: hidden ;
 }
 
+#bcMain {
+background-color: darkcyan;
+}
+
 .finalPagina {
 display: flex;
 justify-content: space-between;
